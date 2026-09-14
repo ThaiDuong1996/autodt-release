@@ -1,0 +1,11 @@
+{
+  "version": "1.0.4",
+  "released": "2026-09-14",
+  "url": "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.4/AutoDT_v1.0.4.exe",
+  "sha256": "96ec218d5d6041777f4dea0438c2c08de29a563c711cd97a29ceda4743365834",
+  "size": 88686543,
+  "notes": [
+    "Lần đầu chạy trên máy mới, nhật ký báo gọn \"lần đầu khởi động — khởi động lại game để nạp dữ liệu auto\" thay cho câu báo kỹ thuật khó hiểu."
+  ],
+  "mandatory": false
+}
