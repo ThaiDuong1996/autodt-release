@@ -1,11 +1,24 @@
 {
-  "version": "1.0.4",
-  "released": "2026-09-14",
-  "url": "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.4/AutoDT_v1.0.4.exe",
-  "sha256": "96ec218d5d6041777f4dea0438c2c08de29a563c711cd97a29ceda4743365834",
-  "size": 88686543,
+  "version": "1.0.10",
+  "released": "2026-09-18",
+  "url": "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.10/AutoDT_v1.0.10.exe",
+  "sha256": "06d247c13cf6d5d51a2e9a00865cd1b050dc60f1e339b4dfd03d7b987222d8b8",
+  "size": 41754112,
   "notes": [
-    "Lần đầu chạy trên máy mới, nhật ký báo gọn \"lần đầu khởi động — khởi động lại game để nạp dữ liệu auto\" thay cho câu báo kỹ thuật khó hiểu."
+    "App tìm được máy ảo cài ở ổ khác, không còn bắt phải cài đúng ổ C.",
+    "Máy ảo bật lên mà app chưa thấy thì app tự nối lại. Trước đây gặp cảnh tích năm máy mà chỉ hai máy chạy, các máy còn lại đứng ở \"chờ tới lượt\".",
+    "Máy ảo nào đang khoá phần cho phần mềm ngoài điều khiển thì app tự bật giúp lúc mở app, khỏi phải vào cài đặt máy ảo bật tay.",
+    "Thêm mục \"Nối lại máy ảo bị mất kết nối\" trong menu ba chấm của bảng LD, dùng khi máy ảo đang mở mà app vẫn báo chưa thấy.",
+    "Máy ảo để khổ màn nhỏ (ví dụ 580×380) nay bot bấm đúng nút. Trước đây mọi cú bấm đều lệch xuống dưới nên bot đứng ở màn đăng nhập, bấm mãi không vào được game.",
+    "Bot nhận ra hộp \"Bạn đã bị rớt mạng\" và hộp \"Không thể kết nối tới máy chủ\" rồi tự bấm Xác nhận, kể cả khi hộp đè lên màn chọn nhân vật.",
+    "Đứng ở màn chọn nhân vật quá lâu thì bot tự bấm vào thế giới, không chờ mãi rồi báo \"không tự vào game được\" nữa.",
+    "Đóng app là dừng hẳn: trước đây nếu một máy chưa dừng kịp thì app hiện một hộp báo rồi đứng đó chờ người bấm, mà sau lưng vẫn chạy lại bot — đóng app xong nhân vật vẫn tự đánh. Nay app tắt nhịp ngay, hộp tự đóng, máy nào chưa dừng thì app tắt hẳn bot giúp.",
+    "Bỏ dòng \"Bỏ lượt khi 5 lần không xong\" trong hộp cách trị kinh nghiệm. Việc bỏ nhiệm vụ khó đã có ô \"Dùng lệnh bài Dã Tẩu khi\" và \"Huỷ nhiệm vụ khi\" lo ngay từ lúc nhận, nên dòng kia chỉ tổ rối.",
+    "Nhiệm vụ làm mãi không xong thì bot bỏ lượt theo đúng hai ô ấy, không cần tích thêm gì nữa. Trước đây quên tích dòng thứ ba là bot đi luyện công dù đã chọn huỷ nhiệm vụ hẳn hoi. Không tích tình huống nào thì bot vẫn sang luyện công như cũ.",
+    "Nhiệm vụ nộp đồ và trình đồ mà chợ không có món, hoặc không mở được tiệm, thì bot chuyển việc sau hai lượt thay vì chờ đủ năm lượt. Riêng thiếu tiền vẫn chờ năm lượt, vì bot bán đồ và nhặt tiền trong lúc làm nên lượt sau có thể đủ.",
+    "Cột Việc chỉ còn ghi bot đang ở khâu nào: đang mở máy ảo, đang vào game, đang làm nhiệm vụ, đang luyện cấp, đang tới bãi, đang về thành. Câu đầy đủ xem ở khung nhật ký, hoặc rê chuột vào ô.",
+    "Bấm vào một dòng LD, bảng không tự trượt sang phải nữa.",
+    "Có bản mới thì nút kiểm tra cập nhật tự đổi thành \"Có bản mới\", bấm vào là mở luôn hộp cập nhật."
   ],
   "mandatory": false
 }
