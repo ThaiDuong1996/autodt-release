@@ -1,23 +1,15 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "released": "2026-09-20",
-  "url": "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.11/AutoDT_v1.0.11.exe",
-  "sha256": "19de7c9a4970854b6e62bd01d7205370958b742bc3d84d3672c6ec58af7905f5",
-  "size": 41798144,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.12.exe",
+  "urls_du_phong": [
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.12/AutoDT_v1.0.12.exe"
+  ],
+  "sha256": "a2a236d19f3e8904b1de79b37315b51675ee9f6040c08025e8188f1675e25a46",
+  "size": 41919488,
   "notes": [
-    "Túi sắp đầy thì bot tự về thành bán đồ rác rồi quay lại bãi đánh tiếp. Số ô trống để bắt đầu về bán chỉnh ở thẻ Cài đặt chung, mục Nhặt đồ, để 0 là tắt.",
-    "Về thành là bán sạch một lượt mọi món không đủ điều kiện giữ, nhanh như auto trong game. Trước đây mỗi lần chỉ bán được vài món, túi cứ đầy lại.",
-    "Máy mới có sẵn bảng chỉ số giữ đồ mẫu.",
-    "Xong nhiệm vụ là về nộp ngay rồi mới bán đồ rác, không còn chờ gần một phút.",
-    "Nhiệm vụ kinh nghiệm đủ exp là thôi đi tìm chỗ đông quái, về nộp luôn.",
-    "Chỉ đứng đánh ở chỗ có từ 5 quái trở lên quanh nhân vật, thưa hơn thì đi tìm chỗ khác.",
-    "Đang ở tổ mà có người cùng bãi mời, nếu nhóm người mời đông hơn đồng đội của mình đang có mặt ở bãi thì bot chuyển sang tổ mới.",
-    "Dừng bot, tự làm gì đó trong game rồi bấm Chạy, bot đọc lại ngay tình trạng nhân vật: số lượt Dã Tẩu, điểm Tống Kim, thuốc. Lúc chưa đọc xong, thẻ Dã Tẩu ghi rõ đang là số cũ.",
-    "Tiên Thảo Lộ: lọ người chơi tự dùng cũng được tính vào số lọ trong ngày, bot không uống quá mức đã cài.",
-    "Hết cảnh bảng nhân vật, túi đồ, khung báo bật lên rồi nằm đó làm nhân vật đứng im. Bot tự đóng các cửa sổ thừa sau mỗi việc, không đụng hội thoại NPC.",
-    "Đổi bãi khi nhặt chậm: chỉnh được số phút, \"Cứ [N] phút mà nhặt chưa được [M] vật phẩm thì đổi bãi\".",
-    "Nhật ký thu gọn thì khung co lại còn một dòng, nhường chỗ cho phần cài đặt.",
-    "Hộp cập nhật báo rõ lý do khi tải không được và có thêm đường tải dự phòng."
+    "Sửa lỗi bấm cập nhật trong app mà đứng ở dòng \"Không tải được\". Máy nào trước đây tải không xong thì nay tải được.",
+    "Mỗi bản có hai đường tải, đường này hỏng thì app tự chuyển sang đường kia."
   ],
   "mandatory": false
 }
