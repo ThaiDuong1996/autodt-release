@@ -1,27 +1,26 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "released": "2026-09-23",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.13.exe",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.14.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.13/AutoDT_v1.0.13.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.14/AutoDT_v1.0.14.exe"
   ],
-  "sha256": "49265e499cd29f8a9665718bbc245ccdb591725a7f77ba9870c7c9617e0b5343",
-  "size": 42552832,
+  "sha256": "f21927e5f85ea7f7d3b2205de031d0734bb87615545e72ca2236ae042a78ce1a",
+  "size": 46104576,
   "notes": [
-    "Vào bản đồ không còn đi xuyên tường hay đâm ra cổng sang bản đồ khác. Đứng sát cửa thì bot không đánh ở đó mà đi vào trong tìm bãi.",
-    "Chỉ đứng đánh ở chỗ đủ quái: bản đồ hang từ 4 con, bản đồ thường từ 5 con.",
-    "Luôn lên ngựa khi đi đường, tung lại buff sắp hết ngay trước khi xuất phát.",
-    "Nhiệm vụ kinh nghiệm: bot tự ăn Quả Huy Hoàng thấp và trung có sẵn trong túi hoặc rương đã cho lấy, không tự mua. Quả không đủ bù thì đi luyện công hoặc đổi điểm như cũ.",
-    "Thêm ô \"Xong hết lượt trong ngày thì đăng xuất game và dừng máy này\" dưới Treo 24/7.",
-    "Thời gian nghỉ ở thành sau khi dùng phù thoát thân nay tính bằng giây.",
-    "Ba chế độ luyện cấp là công tắc gạt, bật cái này thì cái kia tắt.",
-    "Bấm Chạy lại không bay lại từ đầu; về thành bằng Thổ Địa Phù rồi quay lại đúng chỗ cũ.",
-    "Tiên Thảo Lộ được dùng cả khi bot luyện công trong lúc chờ Dã Tẩu.",
-    "Nút sắp xếp túi và rương: món khoá hoặc không bán được cho NPC lên đầu.",
-    "Thêm ô giữ nhẫn, ngọc bội, dây chuyền.",
-    "Sửa đồ khi về thành là mục riêng trong Cài đặt chung.",
-    "Vào nhầm nhân vật thì bot chỉ thử vào lại 2 lần rồi dừng và hướng dẫn. Muốn đổi nhân vật, hãy tự vào game bằng nhân vật mới rồi bấm Chạy.",
-    "1 tab 150.000đ, 4 tab 300.000đ, 8 tab 500.000đ mỗi tháng."
+    "Sửa lỗi bot không tự tung buff (Thiên Ma Giải Thể, Tuyết Ảnh...). Từ các bản trước, buff trong thẻ Kỹ năng thật ra chưa bao giờ được tung, chỉ có buff của auto game. Nay bot tung được thật và tự tung lại khi buff trên người sắp hết, không còn theo giây cố định.",
+    "Nhật ký báo rõ mỗi lần tung buff: đã lên người còn bao lâu, hay vì sao chưa tung được (thiếu nội lực, game không nhận).",
+    "Chiêu đánh tầm ngắn mà quái ở xa thì bot bỏ qua và dùng chiêu kế, không kẹt ở chiêu đó nữa; nhật ký báo một lần.",
+    "Ô \"Giãn cách\" của chiêu đánh nay tính bằng giây, có chú thích ngay dưới ô.",
+    "Đổi điểm mà không lên ngựa thì nhật ký nói lý do (đường gần, có quái chắn, ô Lên ngựa đang tắt).",
+    "Chế độ nhiều vị trí: gặp quái tinh anh trong tầm nhìn là bỏ hết để đánh nó; tiến độ mỗi điểm hiện kinh nghiệm thật thay vì luôn là 0; rời điểm có nói vì sao và mỗi điểm đánh bao lâu.",
+    "Thêm ô \"Về thành sửa khi độ bền đồ đang mặc dưới N\" ngay dưới \"Sửa đồ khi về thành\". Có món đồ đang mặc sắp hỏng là bot về thành sửa rồi quay lại chỗ cũ, không cần chờ hết thuốc.",
+    "Bật \"Cả nội lực\" thì chỉnh được số viên nội lực cần mua.",
+    "Tắt tổ đội ở thẻ Luyện cấp thì bot không còn tự mời hay tự lập tổ khi luyện. Tổ đội của thẻ Dã Tẩu chỉ dùng khi đang làm Dã Tẩu.",
+    "Bản đồ hang: bản này mới mang đủ dữ liệu vật cản của 927 bản đồ. Các bản trước thiếu nên bot đi thẳng và hay báo \"chưa có dữ liệu vật cản\".",
+    "Lâm An không có cửa \"Trung Tâm\" khi đặt điểm hồi sinh: bot chọn cửa có sẵn thay vì báo lỗi lặp đi lặp lại.",
+    "Tiền nhặt được hiện đúng chữ \"lượng\", không còn ký tự lạ.",
+    "Vào bản đồ ở đúng chỗ cửa thì nhật ký ghi \"đang đứng ngay chỗ vào bản đồ\" thay cho \"sát cửa, cách 0 ô\"."
   ],
   "mandatory": false
 }
