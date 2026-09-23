@@ -1,15 +1,27 @@
 {
-  "version": "1.0.12",
-  "released": "2026-09-20",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.12.exe",
+  "version": "1.0.13",
+  "released": "2026-09-23",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.13.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.12/AutoDT_v1.0.12.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.13/AutoDT_v1.0.13.exe"
   ],
-  "sha256": "a2a236d19f3e8904b1de79b37315b51675ee9f6040c08025e8188f1675e25a46",
-  "size": 41919488,
+  "sha256": "49265e499cd29f8a9665718bbc245ccdb591725a7f77ba9870c7c9617e0b5343",
+  "size": 42552832,
   "notes": [
-    "Sửa lỗi bấm cập nhật trong app mà đứng ở dòng \"Không tải được\". Máy nào trước đây tải không xong thì nay tải được.",
-    "Mỗi bản có hai đường tải, đường này hỏng thì app tự chuyển sang đường kia."
+    "Vào bản đồ không còn đi xuyên tường hay đâm ra cổng sang bản đồ khác. Đứng sát cửa thì bot không đánh ở đó mà đi vào trong tìm bãi.",
+    "Chỉ đứng đánh ở chỗ đủ quái: bản đồ hang từ 4 con, bản đồ thường từ 5 con.",
+    "Luôn lên ngựa khi đi đường, tung lại buff sắp hết ngay trước khi xuất phát.",
+    "Nhiệm vụ kinh nghiệm: bot tự ăn Quả Huy Hoàng thấp và trung có sẵn trong túi hoặc rương đã cho lấy, không tự mua. Quả không đủ bù thì đi luyện công hoặc đổi điểm như cũ.",
+    "Thêm ô \"Xong hết lượt trong ngày thì đăng xuất game và dừng máy này\" dưới Treo 24/7.",
+    "Thời gian nghỉ ở thành sau khi dùng phù thoát thân nay tính bằng giây.",
+    "Ba chế độ luyện cấp là công tắc gạt, bật cái này thì cái kia tắt.",
+    "Bấm Chạy lại không bay lại từ đầu; về thành bằng Thổ Địa Phù rồi quay lại đúng chỗ cũ.",
+    "Tiên Thảo Lộ được dùng cả khi bot luyện công trong lúc chờ Dã Tẩu.",
+    "Nút sắp xếp túi và rương: món khoá hoặc không bán được cho NPC lên đầu.",
+    "Thêm ô giữ nhẫn, ngọc bội, dây chuyền.",
+    "Sửa đồ khi về thành là mục riêng trong Cài đặt chung.",
+    "Vào nhầm nhân vật thì bot chỉ thử vào lại 2 lần rồi dừng và hướng dẫn. Muốn đổi nhân vật, hãy tự vào game bằng nhân vật mới rồi bấm Chạy.",
+    "1 tab 150.000đ, 4 tab 300.000đ, 8 tab 500.000đ mỗi tháng."
   ],
   "mandatory": false
 }
