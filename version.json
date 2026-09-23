@@ -1,26 +1,25 @@
 {
-  "version": "1.0.14",
-  "released": "2026-09-23",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.14.exe",
+  "version": "1.0.15",
+  "released": "2026-09-24",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.15.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.14/AutoDT_v1.0.14.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.15/AutoDT_v1.0.15.exe"
   ],
-  "sha256": "f21927e5f85ea7f7d3b2205de031d0734bb87615545e72ca2236ae042a78ce1a",
-  "size": 46104576,
+  "sha256": "4f8ba98ecbe8696fc12ffdfe6d81fbfa9a2572c2d7170d6ba082135ce2eea758",
+  "size": 46307840,
   "notes": [
-    "Sửa lỗi bot không tự tung buff (Thiên Ma Giải Thể, Tuyết Ảnh...). Từ các bản trước, buff trong thẻ Kỹ năng thật ra chưa bao giờ được tung, chỉ có buff của auto game. Nay bot tung được thật và tự tung lại khi buff trên người sắp hết, không còn theo giây cố định.",
-    "Nhật ký báo rõ mỗi lần tung buff: đã lên người còn bao lâu, hay vì sao chưa tung được (thiếu nội lực, game không nhận).",
-    "Chiêu đánh tầm ngắn mà quái ở xa thì bot bỏ qua và dùng chiêu kế, không kẹt ở chiêu đó nữa; nhật ký báo một lần.",
-    "Ô \"Giãn cách\" của chiêu đánh nay tính bằng giây, có chú thích ngay dưới ô.",
-    "Đổi điểm mà không lên ngựa thì nhật ký nói lý do (đường gần, có quái chắn, ô Lên ngựa đang tắt).",
-    "Chế độ nhiều vị trí: gặp quái tinh anh trong tầm nhìn là bỏ hết để đánh nó; tiến độ mỗi điểm hiện kinh nghiệm thật thay vì luôn là 0; rời điểm có nói vì sao và mỗi điểm đánh bao lâu.",
-    "Thêm ô \"Về thành sửa khi độ bền đồ đang mặc dưới N\" ngay dưới \"Sửa đồ khi về thành\". Có món đồ đang mặc sắp hỏng là bot về thành sửa rồi quay lại chỗ cũ, không cần chờ hết thuốc.",
-    "Bật \"Cả nội lực\" thì chỉnh được số viên nội lực cần mua.",
-    "Tắt tổ đội ở thẻ Luyện cấp thì bot không còn tự mời hay tự lập tổ khi luyện. Tổ đội của thẻ Dã Tẩu chỉ dùng khi đang làm Dã Tẩu.",
-    "Bản đồ hang: bản này mới mang đủ dữ liệu vật cản của 927 bản đồ. Các bản trước thiếu nên bot đi thẳng và hay báo \"chưa có dữ liệu vật cản\".",
-    "Lâm An không có cửa \"Trung Tâm\" khi đặt điểm hồi sinh: bot chọn cửa có sẵn thay vì báo lỗi lặp đi lặp lại.",
-    "Tiền nhặt được hiện đúng chữ \"lượng\", không còn ký tự lạ.",
-    "Vào bản đồ ở đúng chỗ cửa thì nhật ký ghi \"đang đứng ngay chỗ vào bản đồ\" thay cho \"sát cửa, cách 0 ô\"."
+    "Lên bãi, bot tìm tổ trước: thấy đám người đang đánh thì đứng cạnh chờ được mời, không có tổ mới đi tìm bãi.",
+    "Ngoài bãi chỉ nhận lời mời của người đang ở gần mình. Đang kẹt ở tổ xa mà người đứng cạnh mời thì bot rời tổ cũ để vào tổ mới.",
+    "Vào tổ là bot chạy tới chỗ đồng đội đứng đông nhất để đánh cùng, không đứng lẻ một mình.",
+    "Lời mời đã nhận hoặc đã cũ không còn treo mãi ở mục Thông báo.",
+    "Đứng cạnh người khác 3 phút mà không ai mời thì bot xem bãi có đủ quái cho mọi người không; ít quái thì đi tìm bãi khác.",
+    "Đếm quái trong 16 ô quanh nhân vật thay vì 22 ô, sát với những gì thấy trên màn hình hơn, quái sau tường không tính.",
+    "Chỗ đang đứng đã đủ quái (5 con, bản đồ hang 4 con) là đánh luôn; đang đi mà gặp chỗ đủ quái cũng dừng lại đánh.",
+    "Bot xét chỗ đang đánh theo 3 phút gần nhất chứ không theo một lần đếm, nên không còn chạy qua lại giữa các bãi mỗi khi quái vừa chết.",
+    "Đang có tổ thì ở lại đánh cùng tổ, kể cả khi đứng gần cửa bản đồ.",
+    "Hết giờ một điểm (nhiều vị trí), đổi bãi hay hết ca mà còn quái đánh dở thì bot đánh nốt, tối đa 30 giây, rồi mới đi. Phải về thành gấp (hết thuốc, chết) hoặc Dã Tẩu đã đủ quái thì đi ngay.",
+    "Thêm ô \"Xuống ngựa khi đánh\" ngay dưới \"Lên ngựa khi di chuyển\" ở thẻ Luyện cấp. Bỏ tích thì nhân vật ngồi ngựa cả lúc đánh; chiêu nào bắt phải xuống ngựa thì vẫn xuống để đánh.",
+    "Nhiệm vụ Mật chí: đã tích dùng Lệnh bài (hoặc Huỷ nhiệm vụ) cho Mật chí thì bot làm ngay, không lên bãi săn nữa. Sửa lỗi có lúc nhận nhầm Mật chí với Địa Đồ chí."
   ],
   "mandatory": false
 }
