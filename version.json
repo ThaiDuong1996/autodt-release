@@ -1,25 +1,20 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.19",
   "released": "2026-09-24",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.15.exe",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.19.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.15/AutoDT_v1.0.15.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.19/AutoDT_v1.0.19.exe"
   ],
-  "sha256": "4f8ba98ecbe8696fc12ffdfe6d81fbfa9a2572c2d7170d6ba082135ce2eea758",
-  "size": 46307840,
+  "sha256": "0c50185e5d612b8ff5909b6638a191d0d1b10262a6fc4fb2ddb082ededc2e670",
+  "size": 46333440,
   "notes": [
-    "Lên bãi, bot tìm tổ trước: thấy đám người đang đánh thì đứng cạnh chờ được mời, không có tổ mới đi tìm bãi.",
-    "Ngoài bãi chỉ nhận lời mời của người đang ở gần mình. Đang kẹt ở tổ xa mà người đứng cạnh mời thì bot rời tổ cũ để vào tổ mới.",
-    "Vào tổ là bot chạy tới chỗ đồng đội đứng đông nhất để đánh cùng, không đứng lẻ một mình.",
-    "Lời mời đã nhận hoặc đã cũ không còn treo mãi ở mục Thông báo.",
-    "Đứng cạnh người khác 3 phút mà không ai mời thì bot xem bãi có đủ quái cho mọi người không; ít quái thì đi tìm bãi khác.",
-    "Đếm quái trong 16 ô quanh nhân vật thay vì 22 ô, sát với những gì thấy trên màn hình hơn, quái sau tường không tính.",
-    "Chỗ đang đứng đã đủ quái (5 con, bản đồ hang 4 con) là đánh luôn; đang đi mà gặp chỗ đủ quái cũng dừng lại đánh.",
-    "Bot xét chỗ đang đánh theo 3 phút gần nhất chứ không theo một lần đếm, nên không còn chạy qua lại giữa các bãi mỗi khi quái vừa chết.",
-    "Đang có tổ thì ở lại đánh cùng tổ, kể cả khi đứng gần cửa bản đồ.",
-    "Hết giờ một điểm (nhiều vị trí), đổi bãi hay hết ca mà còn quái đánh dở thì bot đánh nốt, tối đa 30 giây, rồi mới đi. Phải về thành gấp (hết thuốc, chết) hoặc Dã Tẩu đã đủ quái thì đi ngay.",
-    "Thêm ô \"Xuống ngựa khi đánh\" ngay dưới \"Lên ngựa khi di chuyển\" ở thẻ Luyện cấp. Bỏ tích thì nhân vật ngồi ngựa cả lúc đánh; chiêu nào bắt phải xuống ngựa thì vẫn xuống để đánh.",
-    "Nhiệm vụ Mật chí: đã tích dùng Lệnh bài (hoặc Huỷ nhiệm vụ) cho Mật chí thì bot làm ngay, không lên bãi săn nữa. Sửa lỗi có lúc nhận nhầm Mật chí với Địa Đồ chí."
+    "Mời theo danh sách và Chỉ nhận từ danh sách nay chạy thật. Trước đây app không có chỗ nhập tên nên hai lựa chọn này không mời, không vào tổ với ai.",
+    "Thêm khối \"Danh sách mời tổ đội\" giống bảng auto trong game: ô Chọn người chơi, khung tên, nút Thêm, Tìm quanh, Xóa, Xóa hết.",
+    "Tìm quanh đọc tên người chơi đang đứng quanh nhân vật để chọn, không phải gõ tay. Bot đang chạy vẫn bấm được, chờ vài giây là có danh sách.",
+    "Chọn theo danh sách mà danh sách trống, hoặc mời theo danh sách mà \"Tự tạo nhóm sau\" để 0, thì nhật ký báo rõ để biết vì sao không mời được ai.",
+    "Mỗi lần bấm Chạy, bot tới bãi rồi mới lưu rương, không lưu trước khi bay nữa. Áp dụng cho Luyện cấp và Dã Tẩu.",
+    "Sửa lỗi tự lưu rương ở thành khác rồi bấm Chạy thì bot không lưu lại, Thổ địa phù đưa về sai thành.",
+    "Sửa lỗi chạy LDPlayer cùng MuMu: có lúc LD nhận nhầm nhân vật của máy MuMu."
   ],
   "mandatory": false
 }
