@@ -1,20 +1,32 @@
 {
-  "version": "1.0.19",
-  "released": "2026-09-24",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.19.exe",
+  "version": "1.0.21",
+  "released": "2026-09-26",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.21.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.19/AutoDT_v1.0.19.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.21/AutoDT_v1.0.21.exe"
   ],
-  "sha256": "0c50185e5d612b8ff5909b6638a191d0d1b10262a6fc4fb2ddb082ededc2e670",
-  "size": 46333440,
+  "sha256": "d8d93669d6dd84a42b2d4b81f593161906c7a77536b60827a737bf7808686403",
+  "size": 46496256,
   "notes": [
-    "Mời theo danh sách và Chỉ nhận từ danh sách nay chạy thật. Trước đây app không có chỗ nhập tên nên hai lựa chọn này không mời, không vào tổ với ai.",
-    "Thêm khối \"Danh sách mời tổ đội\" giống bảng auto trong game: ô Chọn người chơi, khung tên, nút Thêm, Tìm quanh, Xóa, Xóa hết.",
-    "Tìm quanh đọc tên người chơi đang đứng quanh nhân vật để chọn, không phải gõ tay. Bot đang chạy vẫn bấm được, chờ vài giây là có danh sách.",
-    "Chọn theo danh sách mà danh sách trống, hoặc mời theo danh sách mà \"Tự tạo nhóm sau\" để 0, thì nhật ký báo rõ để biết vì sao không mời được ai.",
-    "Mỗi lần bấm Chạy, bot tới bãi rồi mới lưu rương, không lưu trước khi bay nữa. Áp dụng cho Luyện cấp và Dã Tẩu.",
-    "Sửa lỗi tự lưu rương ở thành khác rồi bấm Chạy thì bot không lưu lại, Thổ địa phù đưa về sai thành.",
-    "Sửa lỗi chạy LDPlayer cùng MuMu: có lúc LD nhận nhầm nhân vật của máy MuMu."
+    "Khung chat không còn hiện liên tục \"Tự động đánh bắt đầu\" và \"Auto Tự động đánh tạm dừng\" mỗi lần nhặt đồ hay đổi quái.",
+    "Quái tinh anh (boss xanh) hiện ra là bỏ con đang đánh để đánh nó ngay, không đánh nốt con thường nữa.",
+    "Tổ đông người đứng một chỗ ở xa thì nhân vật về đứng cùng chỗ đông ấy, không đứng cạnh một người lẻ.",
+    "Bớt cảnh chọn quái nằm sau tường rồi chạy vòng vòng không tới được.",
+    "Sửa lỗi cài \"Rút cho đủ 20 vạn\" mà trong người lại mang hơn 50 vạn ra bãi.",
+    "Không đủ tiền mua hết thuốc thì rút thêm từ rương (khi bật rút tiền), mua được bao nhiêu thì báo đúng bấy nhiêu. Trước đây có lúc báo \"đã mua\" mà túi không có viên nào.",
+    "Sửa lỗi chợ bày rất nhiều món mà app báo không có (ví dụ món giảm thời gian trúng độc): nay xem được cả chợ chứ không chỉ vài chục trang đầu.",
+    "Sửa lỗi tìm món theo tên ở chợ luôn ra rỗng.",
+    "Tìm nhanh hơn: chỉ xem đúng loại đồ có thể mang chỉ số nhiệm vụ đòi.",
+    "Gặp món bán bằng tiền vạn đủ yêu cầu và trong tầm giá đã cài là mua ngay, không đợi xem hết chợ. Chỉ khi cả chợ không có ai bán bằng tiền vạn mới mua bằng Kim Nguyên Bảo, chọn món rẻ nhất.",
+    "Mức Kim Nguyên Bảo tối đa mặc định hạ còn 2.",
+    "Hết Thần Hành Phù vẫn đi được: đi bộ qua cửa bản đồ và đi xa phu.",
+    "Đổi bản đồ xong nhân vật đi tiếp nhanh hơn, không đứng chờ thừa.",
+    "Sửa lỗi báo nhầm \"hết Thần Hành Phù\" dù trong túi vẫn còn.",
+    "Sửa lỗi có lúc tưởng đang cưỡi ngựa nên đánh không ra đòn.",
+    "Đổi nhân vật trong game thì app theo đúng nhân vật đang chơi.",
+    "Máy chủ bảo trì thì bot chờ, không bấm lung tung ở màn đăng nhập.",
+    "Chữ và công tắc nhìn rõ ở cả nền Sáng lẫn Tối.",
+    "Nhật ký không còn lẫn chữ mã của game, bỏ cảnh báo sai lúc lưu rương."
   ],
   "mandatory": false
 }
