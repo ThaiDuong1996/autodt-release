@@ -1,20 +1,21 @@
 {
-  "version": "1.0.22",
-  "released": "2026-09-28",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.22.exe",
+  "version": "1.0.25",
+  "released": "2026-10-01",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.25.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.22/AutoDT_v1.0.22.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.25/AutoDT_v1.0.25.exe"
   ],
-  "sha256": "0e6993c4d68ad57285d832478bcc4f096193449d87e98e2e3097afa37b5d53c6",
-  "size": 46637568,
+  "sha256": "ff46be2e71ec6f0522eda7fd6a56f0594aefb6722339853ada5fb0d535c74838",
+  "size": 46653952,
   "notes": [
-    "Thẻ mới \"Săn đồ\" tìm món ở chợ đen theo bộ lọc tự đặt: tên, loại đồ, hệ, cấp, giới tính, khoảng giá và tối đa 6 dòng thuộc tính. App tìm khắp cả chợ, món rẻ nhất hiện lên đầu.",
-    "Món khớp hiện ra ngay trong lúc tìm, không phải chờ xem hết chợ.",
-    "Bấm \"Xem trong game\" để mở chợ đúng món đó, bấm \"Mua\" để mua sau khi xác nhận.",
-    "\"Đặt mua khi có\": đặt sẵn món, số lượng mỗi lô và giá tối đa. Có món mới rao là app báo, hoặc tự mua đúng số lần đã đặt.",
-    "Bot đang chạy trên máy ảo nào thì thẻ này tạm khoá với máy ảo đó.",
-    "Sửa lỗi bản đồ VIP và VIP 2 lưu rương sai thành (ví dụ Lâm Du Quan 2 VIP bị lưu ở Dương Châu, đúng ra là Phượng Tường).",
-    "Đứng sẵn trong bãi rồi bấm Chạy thì app tự xem bãi đó lưu rương ở thành nào, không giữ thành cũ nữa."
+    "Cài từ hai chiêu đánh trở lên: chiêu tới lượt nay đánh đúng con quái nhân vật đang đánh, nên các chiêu thay phiên nhau ra đều. Trước đây chiêu thứ hai hay bị bỏ giữa chừng, nhìn như chỉ đánh một chiêu.",
+    "Sửa lỗi đã tích \"Chỉ nhặt Địa đồ chí, mảnh Sơn Hà Xã Tắc và tiền\" mà lúc đánh quái lấy kinh nghiệm cho nhiệm vụ vẫn nhặt cả đồ khác. Nay suốt lúc làm Dã Tẩu chỉ nhặt đúng những món ấy và tiền.",
+    "Đánh hết quái trong \"Bán kính đánh\" quanh một điểm là sang điểm kế ngay, giống auto trong game, không đứng chờ cho đủ giờ nữa. Điểm còn quái thì vẫn đánh tối đa theo giờ chia như cũ.",
+    "Nghỉ ở thành xong thì quay lại đúng chỗ cũ bằng \"Quay lại địa điểm cũ\" của Thần Hành Phù. Không quay lại được mới bay lên bản đồ bãi rồi chạy tới.",
+    "Sửa lỗi có lúc app tưởng nhân vật đã chết khi vừa dùng Thổ Địa Phù thoát thân.",
+    "Đặt nhiều dòng thuộc tính thì bảng ghi rõ từng dòng khớp của món và dòng \"Đạt đủ 3/3 dòng lọc\"; chữ trong bảng không còn bị cắt khi cửa sổ hẹp.",
+    "Hai dòng lọc cùng một thuộc tính thì món phải có đủ hai dòng ấy.",
+    "\"Xem trong game\" và \"Mua\" tìm thẳng món theo tên, không còn lật vài trang rồi báo không thấy."
   ],
   "mandatory": false
 }
