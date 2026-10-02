@@ -1,21 +1,22 @@
 {
-  "version": "1.0.25",
-  "released": "2026-10-01",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.25.exe",
+  "version": "1.0.31",
+  "released": "2026-10-03",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.31.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.25/AutoDT_v1.0.25.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.31/AutoDT_v1.0.31.exe"
   ],
-  "sha256": "ff46be2e71ec6f0522eda7fd6a56f0594aefb6722339853ada5fb0d535c74838",
-  "size": 46653952,
+  "sha256": "9a9ffefdc1666c5c003703bd34901dac79199e3e6ba61b57ed4c6ebf89100c98",
+  "size": 46680064,
   "notes": [
-    "Cài từ hai chiêu đánh trở lên: chiêu tới lượt nay đánh đúng con quái nhân vật đang đánh, nên các chiêu thay phiên nhau ra đều. Trước đây chiêu thứ hai hay bị bỏ giữa chừng, nhìn như chỉ đánh một chiêu.",
-    "Sửa lỗi đã tích \"Chỉ nhặt Địa đồ chí, mảnh Sơn Hà Xã Tắc và tiền\" mà lúc đánh quái lấy kinh nghiệm cho nhiệm vụ vẫn nhặt cả đồ khác. Nay suốt lúc làm Dã Tẩu chỉ nhặt đúng những món ấy và tiền.",
-    "Đánh hết quái trong \"Bán kính đánh\" quanh một điểm là sang điểm kế ngay, giống auto trong game, không đứng chờ cho đủ giờ nữa. Điểm còn quái thì vẫn đánh tối đa theo giờ chia như cũ.",
-    "Nghỉ ở thành xong thì quay lại đúng chỗ cũ bằng \"Quay lại địa điểm cũ\" của Thần Hành Phù. Không quay lại được mới bay lên bản đồ bãi rồi chạy tới.",
-    "Sửa lỗi có lúc app tưởng nhân vật đã chết khi vừa dùng Thổ Địa Phù thoát thân.",
-    "Đặt nhiều dòng thuộc tính thì bảng ghi rõ từng dòng khớp của món và dòng \"Đạt đủ 3/3 dòng lọc\"; chữ trong bảng không còn bị cắt khi cửa sổ hẹp.",
-    "Hai dòng lọc cùng một thuộc tính thì món phải có đủ hai dòng ấy.",
-    "\"Xem trong game\" và \"Mua\" tìm thẳng món theo tên, không còn lật vài trang rồi báo không thấy."
+    "Đánh hết quái trong \"Bán kính đánh\" thì đi sang điểm kế ngay, không đứng đánh dọn mấy con ở xa nữa.",
+    "Trả nhiệm vụ xong là nhận nhiệm vụ mới ngay, không đứng chờ vài giây như trước; chọn thưởng xong cũng đi tiếp ngay.",
+    "Trình đồ không dùng đồ Hoàng Kim và đồ Kim Phong nữa (máy chủ không nhận), bán đồ rác cũng không bán các món này.",
+    "Món nào đem nộp mà máy chủ không nhận thì bỏ ngay, nhớ cả khi chạy lại, lượt sau dùng món khác, không thử đi thử lại mất thời gian.",
+    "Thêm ô \"Dùng Thiên Sơn Bảo Lộ khi luyện\" (may mắn +10 trong 1 giờ) và \"Dùng Quế Hoa Tửu khi luyện\" (may mắn +20 trong 30 phút) ngay dưới Tiên Thảo Lộ, mỗi ô có số lọ tối đa mỗi ngày. Hết tác dụng bot mới dùng lọ tiếp, không dùng chồng.",
+    "Thêm ô \"Không nhặt Địa đồ chí, mảnh Sơn Hà Xã Tắc\" ở Cài đặt, Nhặt đồ. Bật lên thì lúc luyện cấp nhân vật không chạy đi nhặt hai loại này nữa; lúc làm nhiệm vụ Dã Tẩu cần chúng thì vẫn nhặt như cũ.",
+    "\"Xem trong game\" và \"Mua\" nay tìm món theo đúng loại, cấp, hệ của món nên ra ngay cả với món có hàng trăm cái cùng tên trên chợ. Trước đây món nhiều hàng (như Hổ Phách Hộ Thân phù) bị báo \"không còn trên chợ\" dù vẫn còn.",
+    "Hộp xác nhận mua phải bật \"Tôi chắc chắn muốn mua món này với giá trên\" thì nút Mua mới bấm được; nhấn Enter hay Esc là huỷ, không lỡ tay mua.",
+    "Nhật ký của từng máy ảo ghi giờ ở đầu mỗi dòng, dễ xem bot làm gì lúc nào."
   ],
   "mandatory": false
 }
