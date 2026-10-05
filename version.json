@@ -1,17 +1,24 @@
 {
-  "version": "1.0.32",
-  "released": "2026-10-03",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.32.exe",
+  "version": "1.0.37",
+  "released": "2026-10-05",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.37.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.32/AutoDT_v1.0.32.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.37/AutoDT_v1.0.37.exe"
   ],
-  "sha256": "00b229ffa967dcd400b90cec1b9bf4a5a6a36c63976629b7e3576013126fb858",
-  "size": 46686720,
+  "sha256": "123e92cd4560c6a315f9468cede65566374ac1edff5d8c7da1360f49a34714f0",
+  "size": 45992448,
   "notes": [
-    "Nộp nhiệm vụ Dã Tẩu xong là sang lượt mới ngay. Trước đây mỗi lượt đứng chờ khoảng 10 giây vì cứ thử mua Thổ địa phù mà tiệm không mở; nay mua hỏng một lần thì 30 phút sau mới thử lại.",
-    "Chỉ nghỉ ở thành khi Thổ địa phù được dùng để thoát thân (máu thấp hoặc bị người chơi đánh). Auto trong game dùng Thổ địa phù để về bán đồ, sửa đồ, mua thuốc hay cất tiền thì quay lại bãi ngay, không nghỉ.",
-    "Quay lại chỗ đang đánh sau khi thoát thân hay sau khi chết cũng tạm nghỉ chiêu dọc đường như lúc đi ra bãi, không vừa đi vừa đánh nữa.",
-    "Sửa lỗi bật \"Dùng Thổ địa phù khi máu xuống thấp\" mà nhân vật còn hơn 80% máu vẫn dùng phù về thành, có khi vài phút một lần. Nay chỉ dùng khi máu thật sự dưới mức phần trăm đã đặt."
+    "App nay tự đánh quái, nhặt đồ, lọc đồ, uống thuốc, dùng Thổ địa phù, buff, tự vệ và lo tổ đội hoàn toàn bằng cài đặt trong app. App không bật auto trong game và không đụng tới bảng cài đặt auto của game nữa; những gì trước đây đặt trong bảng auto của game (chiêu đánh, các ô dùng Thổ địa phù) nay đặt lại trong app.",
+    "Bấm Dừng thì nhân vật đứng yên: thôi đánh, thôi nhặt, thôi uống thuốc.",
+    "Thêm công tắc \"Chỉ hỗ trợ (tôi tự điều khiển)\" cho từng giả lập: bạn tự đi, tự đánh, tự PK; app chỉ uống thuốc và dùng Thổ địa phù theo cài đặt. Đang chạy Luyện cấp / Dã Tẩu mà bật công tắc thì app tự dừng rồi chuyển sang.",
+    "Hết thuốc thì về thành mua bằng Thổ địa phù trước, trong túi không còn Thổ địa phù mới dùng Thần Hành Phù. Hết Thổ địa phù giữa lúc luyện thì tự về thành mua rồi quay lại bãi.",
+    "Luyện cấp: trên đường tới chỗ đánh không dừng lại đánh quái, đường xa thì lên ngựa.",
+    "Luyện cấp nhiều vị trí: mỗi điểm đánh tới khi hết quái trong bán kính, hoặc quá 10 giây không đánh trúng con nào thì sang điểm kế (chỉnh được dưới ô \"Bán kính đánh\").",
+    "Luyện cấp tại chỗ có thêm ô \"Đứng yên tại toạ độ, chỉ đánh quái trong tầm chiêu\". Thêm quây quái và ô \"Theo sau\".",
+    "Thẻ Kỹ năng có thêm ô \"Chiêu đánh chính\" và Nga My buff máu (cho mình và đồng đội).",
+    "Túi y tế dùng ngay lần đầu và đúng mỗi khoảng giờ đã đặt.",
+    "Ô \"Tự bán đồ khi về thành\" nay có tác dụng: tắt thì không bán món nào.",
+    "Bỏ hẳn phần Tống Kim."
   ],
   "mandatory": false
 }
