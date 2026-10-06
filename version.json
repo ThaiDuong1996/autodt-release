@@ -1,22 +1,21 @@
 {
-  "version": "1.0.41",
+  "version": "1.0.44",
   "released": "2026-10-07",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.41.exe",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.44.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.41/AutoDT_v1.0.41.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.44/AutoDT_v1.0.44.exe"
   ],
-  "sha256": "710178c5d152bfb58494ed83aac74a1b48520c764e7e1a4bda181f6fbb2434d5",
-  "size": 46021632,
+  "sha256": "7003c55567c39ee4ce68899e64ce1eef156a68adfc6f3559eccd4b9b1c95874f",
+  "size": 46031872,
   "notes": [
-    "Thẻ Luyện cấp có thêm ô \"Dùng Nến Hạnh Phúc khi luyện\" (nhân đôi kinh nghiệm 1 giờ) và số cây tối đa mỗi ngày (game cho tối đa 2). Hết tác dụng thì app tự dùng cây tiếp, dùng chung được với Tiên Thảo Lộ.",
-    "Bỏ ô \"Nội xuống thấp thì dùng Thổ địa phù\" ở thẻ Luyện cấp: hết thuốc nội thì app đã tự về thành mua theo \"Hết thuốc thì về thành mua\".",
-    "Ưu tiên quái tinh anh nay chỉ đánh con nằm trong bán kính luyện công đã cài (tính từ tâm khu luyện), không đuổi ra ngoài nữa; đang đánh mà nó chạy ra ngoài thì bỏ, quay lại đánh thường.",
-    "Nhặt theo thuộc tính (kiểu 4) và tắt \"Giữ đồ để bán\": trang bị vừa nhặt mà không khớp bộ lọc nay bị vứt đúng, kể cả món app tự chạy đi nhặt hay món trùng tên đồ đã có trong túi. Lưu bảng thuộc tính không còn tự bật lại \"Giữ đồ để bán\".",
-    "Thay ô \"Nhặt rương / bảo vật\" (không có tác dụng) bằng ô \"Nhặt vật phẩm\": tắt đi là chỉ nhặt tiền.",
-    "Thêm ô \"Không nhặt vật phẩm sự kiện (nguyên liệu event)\" để túi không bị đầy nguyên liệu event.",
-    "Sửa đồ theo độ bền: đồ đang mặc chạm mức đã đặt (ví dụ còn 5) là về thành sửa ngay, kiểm 10 giây một lần trong lúc đánh. Vẫn về sửa kể cả khi tắt \"Hết thuốc thì về thành mua\" hay \"Sửa đồ khi về thành\". Trong người không đủ tiền sửa thì tự rút từ rương. Hiệu thuốc không mở được thì sửa ở tạp hoá.",
-    "Mỗi lần đứng trong thành (sau mỗi lượt Dã Tẩu, sau khi mua thuốc), nếu bật \"Thiếu tiền thì rút từ rương cho đủ\" mà trong người dưới mức đó thì rút cho đủ; khi gửi tiền vào rương cũng giữ lại ít nhất mức này.",
-    "Tự đăng nhập lại nhanh hơn: không còn chờ khoảng nửa phút hỏi danh sách nhân vật khi game chưa trả lời, và nhận đúng màn hình khi game MuMu mở ở tab riêng (trước đây có lúc mất vài phút mới vào lại được)."
+    "Dã Tẩu không bao giờ đụng tới món bạn đã khoá trong game (món có dòng \"Vật phẩm được khóa bảo hiểm\"): không lấy từ rương, không trình, không nộp; coi như trong túi và rương không có món đó, nhật ký ghi rõ số món đã bỏ qua. Trước khi lấy về túi hay nộp, app soát lại lần nữa để chắc món chưa bị khoá. Vứt và bán đồ vốn đã bỏ qua món khoá.",
+    "Săn đồ: ô thuộc tính bày đúng danh sách lọc của chợ trong game, theo đúng thứ tự trong game, bỏ các dòng chợ không lọc được.",
+    "Săn đồ: \"Vũ khí (mọi loại)\" gồm cả ám khí, không còn mục \"Ám khí\" riêng; app quét vũ khí cận chiến rồi ám khí, không quét cả chợ trang bị.",
+    "Giao diện gọn lại: chữ trên mọi thẻ rút ngắn theo cách gọi trong game, bỏ các câu giải thích dài, hàng cài đặt không còn bị gãy làm hai dòng khi cửa sổ hẹp. Ô số nghĩa \"0 là tắt\" nay hiện chữ \"tắt\".",
+    "Thẻ Luyện cấp: ô Nến Hạnh Phúc chuyển lên ngay dưới Tiên Thảo Lộ, trên Thiên Sơn Bảo Lộ và Quế Hoa Tửu; mỗi loại thuốc một hàng kèm số tối đa mỗi ngày.",
+    "Săn đồ: bấm vào một món trong bảng kết quả là hai nút Xem, Mua hiện ngay trong dòng đó, không phải kéo xuống dưới bảng nữa. Bỏ nút \"Chép tên\".",
+    "Săn đồ: ô Loại có thêm \"Vũ khí (mọi loại)\" và \"Ám khí (mọi loại)\" để tìm mọi vũ khí một lần, không phải chọn từng loại.",
+    "Bỏ nút \"Bảng giá\" ở đầu cửa sổ."
   ],
   "mandatory": false
 }
