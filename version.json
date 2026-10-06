@@ -1,24 +1,22 @@
 {
-  "version": "1.0.37",
-  "released": "2026-10-05",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.37.exe",
+  "version": "1.0.41",
+  "released": "2026-10-07",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.41.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.37/AutoDT_v1.0.37.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.41/AutoDT_v1.0.41.exe"
   ],
-  "sha256": "123e92cd4560c6a315f9468cede65566374ac1edff5d8c7da1360f49a34714f0",
-  "size": 45992448,
+  "sha256": "710178c5d152bfb58494ed83aac74a1b48520c764e7e1a4bda181f6fbb2434d5",
+  "size": 46021632,
   "notes": [
-    "App nay tự đánh quái, nhặt đồ, lọc đồ, uống thuốc, dùng Thổ địa phù, buff, tự vệ và lo tổ đội hoàn toàn bằng cài đặt trong app. App không bật auto trong game và không đụng tới bảng cài đặt auto của game nữa; những gì trước đây đặt trong bảng auto của game (chiêu đánh, các ô dùng Thổ địa phù) nay đặt lại trong app.",
-    "Bấm Dừng thì nhân vật đứng yên: thôi đánh, thôi nhặt, thôi uống thuốc.",
-    "Thêm công tắc \"Chỉ hỗ trợ (tôi tự điều khiển)\" cho từng giả lập: bạn tự đi, tự đánh, tự PK; app chỉ uống thuốc và dùng Thổ địa phù theo cài đặt. Đang chạy Luyện cấp / Dã Tẩu mà bật công tắc thì app tự dừng rồi chuyển sang.",
-    "Hết thuốc thì về thành mua bằng Thổ địa phù trước, trong túi không còn Thổ địa phù mới dùng Thần Hành Phù. Hết Thổ địa phù giữa lúc luyện thì tự về thành mua rồi quay lại bãi.",
-    "Luyện cấp: trên đường tới chỗ đánh không dừng lại đánh quái, đường xa thì lên ngựa.",
-    "Luyện cấp nhiều vị trí: mỗi điểm đánh tới khi hết quái trong bán kính, hoặc quá 10 giây không đánh trúng con nào thì sang điểm kế (chỉnh được dưới ô \"Bán kính đánh\").",
-    "Luyện cấp tại chỗ có thêm ô \"Đứng yên tại toạ độ, chỉ đánh quái trong tầm chiêu\". Thêm quây quái và ô \"Theo sau\".",
-    "Thẻ Kỹ năng có thêm ô \"Chiêu đánh chính\" và Nga My buff máu (cho mình và đồng đội).",
-    "Túi y tế dùng ngay lần đầu và đúng mỗi khoảng giờ đã đặt.",
-    "Ô \"Tự bán đồ khi về thành\" nay có tác dụng: tắt thì không bán món nào.",
-    "Bỏ hẳn phần Tống Kim."
+    "Thẻ Luyện cấp có thêm ô \"Dùng Nến Hạnh Phúc khi luyện\" (nhân đôi kinh nghiệm 1 giờ) và số cây tối đa mỗi ngày (game cho tối đa 2). Hết tác dụng thì app tự dùng cây tiếp, dùng chung được với Tiên Thảo Lộ.",
+    "Bỏ ô \"Nội xuống thấp thì dùng Thổ địa phù\" ở thẻ Luyện cấp: hết thuốc nội thì app đã tự về thành mua theo \"Hết thuốc thì về thành mua\".",
+    "Ưu tiên quái tinh anh nay chỉ đánh con nằm trong bán kính luyện công đã cài (tính từ tâm khu luyện), không đuổi ra ngoài nữa; đang đánh mà nó chạy ra ngoài thì bỏ, quay lại đánh thường.",
+    "Nhặt theo thuộc tính (kiểu 4) và tắt \"Giữ đồ để bán\": trang bị vừa nhặt mà không khớp bộ lọc nay bị vứt đúng, kể cả món app tự chạy đi nhặt hay món trùng tên đồ đã có trong túi. Lưu bảng thuộc tính không còn tự bật lại \"Giữ đồ để bán\".",
+    "Thay ô \"Nhặt rương / bảo vật\" (không có tác dụng) bằng ô \"Nhặt vật phẩm\": tắt đi là chỉ nhặt tiền.",
+    "Thêm ô \"Không nhặt vật phẩm sự kiện (nguyên liệu event)\" để túi không bị đầy nguyên liệu event.",
+    "Sửa đồ theo độ bền: đồ đang mặc chạm mức đã đặt (ví dụ còn 5) là về thành sửa ngay, kiểm 10 giây một lần trong lúc đánh. Vẫn về sửa kể cả khi tắt \"Hết thuốc thì về thành mua\" hay \"Sửa đồ khi về thành\". Trong người không đủ tiền sửa thì tự rút từ rương. Hiệu thuốc không mở được thì sửa ở tạp hoá.",
+    "Mỗi lần đứng trong thành (sau mỗi lượt Dã Tẩu, sau khi mua thuốc), nếu bật \"Thiếu tiền thì rút từ rương cho đủ\" mà trong người dưới mức đó thì rút cho đủ; khi gửi tiền vào rương cũng giữ lại ít nhất mức này.",
+    "Tự đăng nhập lại nhanh hơn: không còn chờ khoảng nửa phút hỏi danh sách nhân vật khi game chưa trả lời, và nhận đúng màn hình khi game MuMu mở ở tab riêng (trước đây có lúc mất vài phút mới vào lại được)."
   ],
   "mandatory": false
 }
