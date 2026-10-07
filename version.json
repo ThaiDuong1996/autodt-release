@@ -1,21 +1,20 @@
 {
-  "version": "1.0.44",
-  "released": "2026-10-07",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.44.exe",
+  "version": "1.0.47",
+  "released": "2026-10-08",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.47.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.44/AutoDT_v1.0.44.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.47/AutoDT_v1.0.47.exe"
   ],
-  "sha256": "7003c55567c39ee4ce68899e64ce1eef156a68adfc6f3559eccd4b9b1c95874f",
-  "size": 46031872,
+  "sha256": "ecb010f388a784e8399cb2a1052ba5cdd144b12372e75716db0a1b29646e5dd4",
+  "size": 46393344,
   "notes": [
-    "Dã Tẩu không bao giờ đụng tới món bạn đã khoá trong game (món có dòng \"Vật phẩm được khóa bảo hiểm\"): không lấy từ rương, không trình, không nộp; coi như trong túi và rương không có món đó, nhật ký ghi rõ số món đã bỏ qua. Trước khi lấy về túi hay nộp, app soát lại lần nữa để chắc món chưa bị khoá. Vứt và bán đồ vốn đã bỏ qua món khoá.",
-    "Săn đồ: ô thuộc tính bày đúng danh sách lọc của chợ trong game, theo đúng thứ tự trong game, bỏ các dòng chợ không lọc được.",
-    "Săn đồ: \"Vũ khí (mọi loại)\" gồm cả ám khí, không còn mục \"Ám khí\" riêng; app quét vũ khí cận chiến rồi ám khí, không quét cả chợ trang bị.",
-    "Giao diện gọn lại: chữ trên mọi thẻ rút ngắn theo cách gọi trong game, bỏ các câu giải thích dài, hàng cài đặt không còn bị gãy làm hai dòng khi cửa sổ hẹp. Ô số nghĩa \"0 là tắt\" nay hiện chữ \"tắt\".",
-    "Thẻ Luyện cấp: ô Nến Hạnh Phúc chuyển lên ngay dưới Tiên Thảo Lộ, trên Thiên Sơn Bảo Lộ và Quế Hoa Tửu; mỗi loại thuốc một hàng kèm số tối đa mỗi ngày.",
-    "Săn đồ: bấm vào một món trong bảng kết quả là hai nút Xem, Mua hiện ngay trong dòng đó, không phải kéo xuống dưới bảng nữa. Bỏ nút \"Chép tên\".",
-    "Săn đồ: ô Loại có thêm \"Vũ khí (mọi loại)\" và \"Ám khí (mọi loại)\" để tìm mọi vũ khí một lần, không phải chọn từng loại.",
-    "Bỏ nút \"Bảng giá\" ở đầu cửa sổ."
+    "Thẻ Kỹ năng làm lại: ô chọn chiêu là hình chiêu thật của game, bấm vào mở bảng hình các chiêu nhân vật đang có, bấm hình là chọn. Không còn ô \"Bật bộ chiêu\": có chiêu trong ô là dùng, ô trống là không.",
+    "Chiêu đánh chính đánh dấu * ngay trên ô, bấm phải vào ô để đặt. Hẹn giây của từng chiêu đánh nằm ngay dưới ô đó.",
+    "Buff, trấn phái và vòng sáng: app canh trên người liên tục, chưa có hay sắp hết là tung lại ngay. Bỏ các ô \"mỗi N giây\", \"máu dưới\", \"dùng lần lượt / theo giãn cách\" vì không cần nữa.",
+    "Hàng \"Nga My buff máu\" chỉ hiện khi nhân vật phái Nga Mi.",
+    "Nhặt đồ: khi app tự đi nhặt mà đứng giữa đống đồ thì nhặt hết cả đống trong một lượt như auto trong game, không còn bấm từng món rồi chờ.",
+    "Săn đồ: ô thuộc tính xếp lại theo bảng chữ cái cho dễ tìm.",
+    "Đăng nhập lại: thấy màn hình mới thì chờ 1 giây cho game vẽ xong rồi mới bấm (trước là 0,3 giây, bấm sát quá làm game lag hiển thị); sau mỗi nhát bấm nghỉ 0,5 giây."
   ],
   "mandatory": false
 }
