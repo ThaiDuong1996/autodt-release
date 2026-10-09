@@ -1,20 +1,14 @@
 {
-  "version": "1.0.47",
-  "released": "2026-10-08",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.47.exe",
+  "version": "1.0.48",
+  "released": "2026-10-10",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.48.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.47/AutoDT_v1.0.47.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.48/AutoDT_v1.0.48.exe"
   ],
-  "sha256": "ecb010f388a784e8399cb2a1052ba5cdd144b12372e75716db0a1b29646e5dd4",
-  "size": 46393344,
+  "sha256": "f26a29702c673fadca50dd3d59418a7da865a2e2c7d75586f0b311e7071dc07d",
+  "size": 46394368,
   "notes": [
-    "Thẻ Kỹ năng làm lại: ô chọn chiêu là hình chiêu thật của game, bấm vào mở bảng hình các chiêu nhân vật đang có, bấm hình là chọn. Không còn ô \"Bật bộ chiêu\": có chiêu trong ô là dùng, ô trống là không.",
-    "Chiêu đánh chính đánh dấu * ngay trên ô, bấm phải vào ô để đặt. Hẹn giây của từng chiêu đánh nằm ngay dưới ô đó.",
-    "Buff, trấn phái và vòng sáng: app canh trên người liên tục, chưa có hay sắp hết là tung lại ngay. Bỏ các ô \"mỗi N giây\", \"máu dưới\", \"dùng lần lượt / theo giãn cách\" vì không cần nữa.",
-    "Hàng \"Nga My buff máu\" chỉ hiện khi nhân vật phái Nga Mi.",
-    "Nhặt đồ: khi app tự đi nhặt mà đứng giữa đống đồ thì nhặt hết cả đống trong một lượt như auto trong game, không còn bấm từng món rồi chờ.",
-    "Săn đồ: ô thuộc tính xếp lại theo bảng chữ cái cho dễ tìm.",
-    "Đăng nhập lại: thấy màn hình mới thì chờ 1 giây cho game vẽ xong rồi mới bấm (trước là 0,3 giây, bấm sát quá làm game lag hiển thị); sau mỗi nhát bấm nghỉ 0,5 giây."
+    "Săn đồ và Đặt mua khi có: mỗi dòng thuộc tính có thêm ô chọn vị trí dòng trên món: Bất kỳ, Dòng ẩn (một trong ba dòng ẩn), Ẩn 1, Ẩn 2, Ẩn 3 (ẩn 1/2/3 là dòng 2/4/6 trong bảng thông tin món), Dòng 1, Dòng 3, Dòng 5. Chọn \"Ẩn 1\" thì thuộc tính phải nằm đúng dòng 2 mới tính là khớp, không còn khớp bừa dòng nào cũng được. Bộ lọc và đơn Đặt mua cũ mặc định \"Bất kỳ\", chạy như trước."
   ],
   "mandatory": false
 }
