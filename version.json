@@ -1,14 +1,21 @@
 {
-  "version": "1.0.48",
-  "released": "2026-10-10",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.48.exe",
+  "version": "1.0.55",
+  "released": "2026-10-17",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.55.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.48/AutoDT_v1.0.48.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.55/AutoDT_v1.0.55.exe"
   ],
-  "sha256": "f26a29702c673fadca50dd3d59418a7da865a2e2c7d75586f0b311e7071dc07d",
-  "size": 46394368,
+  "sha256": "1e87802df9f04cba6be6f72458116d8eb5ac5ea1ca199a75d330ba6d589ba7d9",
+  "size": 46462464,
   "notes": [
-    "Săn đồ và Đặt mua khi có: mỗi dòng thuộc tính có thêm ô chọn vị trí dòng trên món: Bất kỳ, Dòng ẩn (một trong ba dòng ẩn), Ẩn 1, Ẩn 2, Ẩn 3 (ẩn 1/2/3 là dòng 2/4/6 trong bảng thông tin món), Dòng 1, Dòng 3, Dòng 5. Chọn \"Ẩn 1\" thì thuộc tính phải nằm đúng dòng 2 mới tính là khớp, không còn khớp bừa dòng nào cũng được. Bộ lọc và đơn Đặt mua cũ mặc định \"Bất kỳ\", chạy như trước."
+    "Dã Tẩu làm hết số nhiệm vụ trong ngày của máy chủ mình (30 hay 45 lượt đều được), tới khi NPC báo đủ lượt mới dừng. NPC lỡ không trả lời một lần thì app hỏi lại, không vội coi là hết lượt.",
+    "Săn đồ, Đặt mua khi có: đặt theo tổng số cái và giá tối đa mỗi cái, người bán gộp bao nhiêu cái một lô cũng mua được. Đơn cũ tự đổi sang cách mới.",
+    "Kỹ năng: bỏ khoảng chờ cứng nửa giây giữa các chiêu. \"Nghỉ giữa hai chiêu\" để trống (hiện \"không\") là chiêu sau ra ngay; ai đang để 1,2 giây muốn đánh nhanh thì sửa về 0.",
+    "Cập nhật bộ di chuyển: đi giữa lối, qua cổng vòm và khe cột không cạ chân cột, tới chỗ rẽ đi tiếp ngay; tự lên ngựa khi đi xa.",
+    "Tự kết nối lại khi mất kết nối: thử ngay, rồi 1 phút, 1 phút, tắt game mở lại, sau đó cứ 5 phút thử một lần, thử mãi tới khi vào được.",
+    "Thẻ Luyện cấp hiện số lọ, nến đã dùng hôm nay kèm nút \"Đặt lại\".",
+    "Không nhặt vật phẩm sự kiện: bỏ thêm \"Nơ Cột Bó Hoa\" và \"Hoa hồng\".",
+    "Cải thiện một vài thứ."
   ],
   "mandatory": false
 }
