@@ -1,20 +1,19 @@
 {
-  "version": "1.0.62",
-  "released": "2026-10-19",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.62.exe",
+  "version": "1.0.66",
+  "released": "2026-10-22",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.66.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.62/AutoDT_v1.0.62.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.66/AutoDT_v1.0.66.exe"
   ],
-  "sha256": "c537f6f2aca92a300f42e3c1145c611870ad1a428d8386c083205df6b922e20f",
-  "size": 46514688,
+  "sha256": "cb46a6fc1c0586a65071c12a62ad666280aacc6e2d40463668e4f8691c5f0be9",
+  "size": 46585856,
   "notes": [
-    "Đổi cài đặt lúc bot đang chạy: bot làm theo ngay trong vài giây, kể cả lúc đang đi map, tìm tổ hay nghỉ sau khi dùng phù; không phải Dừng rồi Chạy lại.",
-    "Ô \"Giữ nhẫn / ngọc bội / dây chuyền\" và ô \"Không tự mua đồ\" đổi lúc đang chạy nay có tác dụng ngay.",
-    "Dã Tẩu: nhặt đủ số quyển (hoặc đủ mảnh) là bot thôi đánh, thôi nhặt, thôi đuổi tinh anh và về trả ngay trong khoảng 1 giây, không còn đánh thêm cả phút.",
-    "Luyện cấp: tích \"Tiên Thảo Lộ\" là bot tự ăn, ăn được cả bình x2 lẫn bình X3 (có cả hai thì ăn X3 trước), không còn bỏ qua vì \"ca luyện ngắn\".",
-    "Đi tới bãi mà bị quái bu chặn đường: đánh mấy con đứng sát người rồi đi tiếp ngay, không đứng loay hoay tìm đường khác hay đánh lan ra cả vùng.",
-    "Được Nga My buff tăng máu tối đa: không còn tính nhầm máu tụt dưới mức thoát thân rồi dùng Thổ địa phù khi máu vẫn đầy.",
-    "Chạy cùng lúc với app khác trên một máy ảo làm bot chậm hẳn: dùng app nào thì tắt hẳn cửa sổ app kia, hoặc để hai app chọn hai máy ảo khác nhau."
+    "Vận tiêu: bật ở đầu thẻ Dã Tẩu (ngay dưới Bật Dã Tẩu). Bot tự tới Long Môn Tiêu Cục ở Ba Lăng Huyện nhận tiêu, dẫn xe sang Vũ Lăng Sơn giao cho Thương Nhân Vũ Lăng, mỗi ngày 3 lượt, giao xong về Ba Lăng đứng. Chọn nhận tiêu Miễn phí hoặc Kim Nguyên Bảo (3 KNB mỗi lượt). Nhân vật phải để trạng thái Luyện công.",
+    "Vận tiêu: suốt đường dẫn xe nhân vật không đánh quái, chỉ tự buff (buff, hỗ trợ, vòng sáng theo thẻ Kỹ năng). Xong vận tiêu thì đánh lại bình thường khi luyện cấp hay làm Dã Tẩu.",
+    "Vận tiêu dùng chung cài đặt mua thuốc, Thổ Địa Phù, lưu rương và thoát thân với Dã Tẩu, Luyện cấp. Bị đánh về thành thì mua thuốc rồi quay lại dẫn xe tiếp.",
+    "Thứ tự trong ngày: làm hết Dã Tẩu, rồi vận tiêu, rồi mới tới ba ô hết lượt (chuyển sang luyện cấp, treo 24/7, đăng xuất).",
+    "Treo 24/7 nay luôn luyện cấp tới 00:00 rồi làm lại từ đầu, không còn đứng chờ không ở thành.",
+    "Chỉ bật Vận tiêu (tắt Dã Tẩu) cũng chạy được: xong vận tiêu thì làm theo ba ô hết lượt ở thẻ Dã Tẩu (ba ô này không còn bị mờ khi tắt Dã Tẩu). Không tích ô nào thì đi luyện cấp nếu thẻ Luyện cấp đang bật."
   ],
   "mandatory": false
 }
