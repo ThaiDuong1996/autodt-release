@@ -1,19 +1,15 @@
 {
-  "version": "1.0.66",
-  "released": "2026-10-22",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.66.exe",
+  "version": "1.0.67",
+  "released": "2026-10-23",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.67.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.66/AutoDT_v1.0.66.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.67/AutoDT_v1.0.67.exe"
   ],
-  "sha256": "cb46a6fc1c0586a65071c12a62ad666280aacc6e2d40463668e4f8691c5f0be9",
-  "size": 46585856,
+  "sha256": "465c973564d161443206ea82e72a216d7bf45f648a290b2fd1459fc4bace4e35",
+  "size": 46586368,
   "notes": [
-    "Vận tiêu: bật ở đầu thẻ Dã Tẩu (ngay dưới Bật Dã Tẩu). Bot tự tới Long Môn Tiêu Cục ở Ba Lăng Huyện nhận tiêu, dẫn xe sang Vũ Lăng Sơn giao cho Thương Nhân Vũ Lăng, mỗi ngày 3 lượt, giao xong về Ba Lăng đứng. Chọn nhận tiêu Miễn phí hoặc Kim Nguyên Bảo (3 KNB mỗi lượt). Nhân vật phải để trạng thái Luyện công.",
-    "Vận tiêu: suốt đường dẫn xe nhân vật không đánh quái, chỉ tự buff (buff, hỗ trợ, vòng sáng theo thẻ Kỹ năng). Xong vận tiêu thì đánh lại bình thường khi luyện cấp hay làm Dã Tẩu.",
-    "Vận tiêu dùng chung cài đặt mua thuốc, Thổ Địa Phù, lưu rương và thoát thân với Dã Tẩu, Luyện cấp. Bị đánh về thành thì mua thuốc rồi quay lại dẫn xe tiếp.",
-    "Thứ tự trong ngày: làm hết Dã Tẩu, rồi vận tiêu, rồi mới tới ba ô hết lượt (chuyển sang luyện cấp, treo 24/7, đăng xuất).",
-    "Treo 24/7 nay luôn luyện cấp tới 00:00 rồi làm lại từ đầu, không còn đứng chờ không ở thành.",
-    "Chỉ bật Vận tiêu (tắt Dã Tẩu) cũng chạy được: xong vận tiêu thì làm theo ba ô hết lượt ở thẻ Dã Tẩu (ba ô này không còn bị mờ khi tắt Dã Tẩu). Không tích ô nào thì đi luyện cấp nếu thẻ Luyện cấp đang bật."
+    "Vận tiêu bị đánh phải về thành: bot mua thuốc, nghỉ ở thành đúng số giây ở ô \"nghỉ ở thành\" của thẻ Luyện cấp, rồi quay lại chỗ cũ (không được thì đi lại từ Ba Lăng) tới chỗ thấy xe lần cuối để dẫn tiếp.",
+    "Bị đánh về thành bao nhiêu lần cũng quay lại dẫn xe, không còn bỏ lượt sau 3 lần. Chỉ bỏ lượt khi tìm quanh chỗ xe đứng 30 giây mà không thấy xe (có thể đã bị cướp)."
   ],
   "mandatory": false
 }
