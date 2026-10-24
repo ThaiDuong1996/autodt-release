@@ -1,17 +1,17 @@
 {
-  "version": "1.0.72",
+  "version": "1.0.73",
   "released": "2026-10-24",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.72.exe",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.73.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.72/AutoDT_v1.0.72.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.73/AutoDT_v1.0.73.exe"
   ],
-  "sha256": "3ffb66a2b0710eeb1f44a85ef78f623a08c45220c47e8ae94666f86ea9397636",
-  "size": 46607872,
+  "sha256": "2d1d184ea4a30b0c8e385487d89503848a6097cd09b1a7ccde0bb3e721b54eec",
+  "size": 46610432,
   "notes": [
-    "Vận tiêu: xe tiêu tự sang Vũ Lăng Sơn trước khi nhân vật tới cửa thì nhân vật sang theo tìm xe, không còn báo mất tiêu rồi bỏ đi luyện cấp.",
-    "Vận tiêu: số lượt đã vận tính ngay lúc nhận tiêu, giống cách game đếm; Long Môn Tiêu Cục không cho nhận nữa thì bot ghi là đã đủ lượt.",
-    "Đi lại: nhân vật đi giữa đường, giữa cổng thay vì bám sát mép, và đi vòng chỗ có người hoặc NPC đang đứng để bớt kẹt.",
-    "Dã Tẩu: không còn báo hết lượt nhầm khi game mới làm được vài lượt."
+    "Vận tiêu: xe tự sang Vũ Lăng Sơn thì nhân vật chạy thẳng ra cửa đi theo, không còn quay lại tìm xe mất hơn 10 giây.",
+    "Vận tiêu: không còn đứng chờ ở khúc cua khi xe đã ở sát bên, và không quay lại tìm khi xe chỉ khuất trong chốc lát.",
+    "Vận tiêu: nhân vật tránh chui qua thân xe, bớt kẹt khi xe đứng sát.",
+    "Buff: tung buff không lên thì vài giây sau tung lại, không còn đợi 2 phút (áp cho cả Dã Tẩu, nhiệm vụ, luyện cấp)."
   ],
   "mandatory": false
 }
