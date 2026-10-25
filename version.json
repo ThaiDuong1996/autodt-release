@@ -1,17 +1,16 @@
 {
-  "version": "1.0.73",
-  "released": "2026-10-24",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.73.exe",
+  "version": "1.0.75",
+  "released": "2026-10-26",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.75.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.73/AutoDT_v1.0.73.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.75/AutoDT_v1.0.75.exe"
   ],
-  "sha256": "2d1d184ea4a30b0c8e385487d89503848a6097cd09b1a7ccde0bb3e721b54eec",
-  "size": 46610432,
+  "sha256": "5427dfb4bf0f220ff0a3352707ff414f9c4745d1092f597106d3d80de285de62",
+  "size": 46618624,
   "notes": [
-    "Vận tiêu: xe tự sang Vũ Lăng Sơn thì nhân vật chạy thẳng ra cửa đi theo, không còn quay lại tìm xe mất hơn 10 giây.",
-    "Vận tiêu: không còn đứng chờ ở khúc cua khi xe đã ở sát bên, và không quay lại tìm khi xe chỉ khuất trong chốc lát.",
-    "Vận tiêu: nhân vật tránh chui qua thân xe, bớt kẹt khi xe đứng sát.",
-    "Buff: tung buff không lên thì vài giây sau tung lại, không còn đợi 2 phút (áp cho cả Dã Tẩu, nhiệm vụ, luyện cấp)."
+    "Vận tiêu: nhân vật chạy liền một mạch rồi đứng chờ xe, xe cách 15 ô thì đứng, xe về 11 ô thì đi tiếp. Không còn cà giật, xe chạy nhanh hơn, mỗi chuyến khoảng 3 phút 10 giây.",
+    "Vận tiêu: qua cửa sang Vũ Lăng Sơn chạy thẳng theo đường mòn, sang map ngay trong vài giây, không còn đứng thử hướng mấy phút ở cửa.",
+    "Vận tiêu: xe vừa khuất mà đang ở xa thì nhân vật đứng lại ngay, không chạy bỏ xe."
   ],
   "mandatory": false
 }
