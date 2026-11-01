@@ -1,22 +1,15 @@
 {
-  "version": "1.0.83",
-  "released": "2026-10-29",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.83.exe",
+  "version": "1.0.84",
+  "released": "2026-11-01",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.84.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.83/AutoDT_v1.0.83.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.84/AutoDT_v1.0.84.exe"
   ],
-  "sha256": "9175bf3ae8bad6d63c205eb765c954a58ccc5d447432d35c7bc035568437a81c",
-  "size": 46638080,
+  "sha256": "b3a3c1c299c31ac96628d925212d3627bfa4d4f918ae01104b73a583c831f742",
+  "size": 46487040,
   "notes": [
-    "Tích cả \"Hết lượt thì đăng xuất\" lẫn \"Treo 24/7\": làm xong việc hôm nay thì bot đăng xuất game, máy chờ tới 00:00 rồi tự vào lại làm Dã Tẩu, Vận tiêu của ngày mới. Trước đây máy dừng hẳn, phải bấm Chạy mới làm tiếp. Trong lúc chờ, máy vẫn giữ suất của key; bấm Dừng là thôi chờ, bấm Chạy là chạy ngay. Chỉ tích \"Hết lượt thì đăng xuất\" thì vẫn như cũ: đăng xuất rồi dừng hẳn.",
-    "Mất kết nối mà game hiện hộp \"Đang lấy thông tin nhân vật…\": bot chờ 1 phút rồi tự bấm Thoát, đăng nhập lại và chạy tiếp, không còn đứng chờ mãi.",
-    "Dã Tẩu: làm xong lượt cuối trong ngày mà NPC Dã Tẩu không trả lời (thường do game lag), bot tắt hẳn game rồi vào lại để hỏi lại; vẫn không trả lời thì coi là xong Dã Tẩu hôm nay và sang Vận tiêu.",
-    "Vận tiêu: thêm ô \"Mất xe tiêu thì chờ … giây rồi vận tiếp\" (mặc định 30 giây). Tích \"Trong lúc chờ thì đi luyện cấp\" thì bot đi luyện cấp đủ số giây đó rồi tự quay lại vận tiếp (cần bật Luyện cấp).",
-    "Vận tiêu: xe bị đánh thì nhật ký báo xe còn bao nhiêu phần trăm máu, nhân vật lùi về đứng sát xe, xe hết choáng là dắt đi tiếp. Xe bị phá thì bot báo, không chạy đi tìm nữa.",
-    "Vận tiêu: bot chờ game báo xe đã sang Vũ Lăng sơn rồi mới qua cửa theo xe, không tự sang trước bỏ xe lại; sang rồi chưa thấy xe thì đi tìm, không đứng kẹt ở cổng Ba Lăng.",
-    "Vận tiêu: chuyến chỉ tính là hoàn thành khi trả tiêu và nhận thưởng; mất xe thì ghi rõ lượt đó không được thưởng rồi làm tiếp lượt còn lại, không chuyển sang luyện cấp khi chưa xong vận tiêu.",
-    "Tiền rương: ô \"Gửi tiền vào rương, giữ lại\" chỉ làm lúc xong việc trong thành trước khi ra bãi, ra bãi mang đúng số đã cài. Ô \"Mua thiếu tiền thì rút rương, tối đa … vạn\" chỉ rút đúng phần còn thiếu lúc mua đồ Dã Tẩu, thuốc hay sửa đồ; thiếu nhiều hơn mức đó thì không rút và ghi rõ trong nhật ký.",
-    "Săn đồ: đang canh đặt mua ở một máy ảo mà bấm sang máy ảo khác đang chạy bot thì canh không còn tự dừng vì báo nhầm."
+    "sửa lỗi nhẹ vận tiêu",
+    "sửa vài lỗi vặt"
   ],
   "mandatory": false
 }
