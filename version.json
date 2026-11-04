@@ -1,15 +1,15 @@
 {
-  "version": "1.0.84",
-  "released": "2026-11-01",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.84.exe",
+  "version": "1.0.85",
+  "released": "2026-11-04",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.85.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.84/AutoDT_v1.0.84.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.85/AutoDT_v1.0.85.exe"
   ],
-  "sha256": "b3a3c1c299c31ac96628d925212d3627bfa4d4f918ae01104b73a583c831f742",
-  "size": 46487040,
+  "sha256": "6f2f2871e36a47ea6dad28da54c80187d1a9c38c394b2084cadbc7a4b6609f72",
+  "size": 46492160,
   "notes": [
-    "sửa lỗi nhẹ vận tiêu",
-    "sửa vài lỗi vặt"
+    "Sửa lỗi máy mất điện xong mở lại app bị treo, báo \"chưa mở được cài đặt, đang tự thử lại\": app tự dựng lại tệp bị hỏng do mất điện, và từ nay ghi tệp chắc chắn xuống ổ đĩa để mất điện không làm hỏng nữa.",
+    "Vận tiêu: xe bị cướp không tính lượt. Bot chỉ coi là xong vận tiêu trong ngày khi giao thành công đủ 3 xe, bị cướp thì nhận xe mới vận tiếp."
   ],
   "mandatory": false
 }
