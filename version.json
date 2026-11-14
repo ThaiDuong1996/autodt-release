@@ -1,15 +1,17 @@
 {
-  "version": "1.0.85",
-  "released": "2026-11-04",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.85.exe",
+  "version": "1.0.86",
+  "released": "2026-11-14",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.86.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.85/AutoDT_v1.0.85.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.86/AutoDT_v1.0.86.exe"
   ],
-  "sha256": "6f2f2871e36a47ea6dad28da54c80187d1a9c38c394b2084cadbc7a4b6609f72",
-  "size": 46492160,
+  "sha256": "46ab5df93f984a6af645cc00fc6b475e9a863621767e59ebbc1e89d1262c4eab",
+  "size": 46507008,
   "notes": [
-    "Sửa lỗi máy mất điện xong mở lại app bị treo, báo \"chưa mở được cài đặt, đang tự thử lại\": app tự dựng lại tệp bị hỏng do mất điện, và từ nay ghi tệp chắc chắn xuống ổ đĩa để mất điện không làm hỏng nữa.",
-    "Vận tiêu: xe bị cướp không tính lượt. Bot chỉ coi là xong vận tiêu trong ngày khi giao thành công đủ 3 xe, bị cướp thì nhận xe mới vận tiếp."
+    "Săn đồ: đang săn đồ hoặc canh đặt mua ở một máy ảo thì các máy ảo khác vẫn đọc kỹ năng, lấy vị trí và săn đồ được bình thường. Trước đây các máy khác bị đứng, lấy vị trí ra sai chỗ hoặc không ra gì.",
+    "Kỹ năng: thêm ô \"Áp sát rồi mới ra chiêu\". Đặt số (32 là 1 ô) thì nhân vật chạy tới sát quái đúng khoảng đó rồi mới đánh, chiêu đánh gần đỡ bị hụt. Để \"tắt\" thì đánh như cũ. Bật \"Đứng yên tại toạ độ\" thì không áp sát.",
+    "Luyện cấp: bốn kiểu luyện (tự động theo cấp, chọn bãi, tại chỗ, nhiều vị trí) bật kiểu nào thì kiểu đang bật tự tắt, không phải tắt tự động trước.",
+    "Luyện cấp: thêm tự dùng Nến Bát Trân ngay dưới Nến Hạnh Phúc, cài số cây mỗi ngày và nút Đặt lại như Nến Hạnh Phúc. Hai cây nến cũng theo ô \"Chỉ dùng khi tổ đứng cùng từ N người\" như Tiên Thảo Lộ."
   ],
   "mandatory": false
 }
