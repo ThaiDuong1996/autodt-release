@@ -1,17 +1,17 @@
 {
-  "version": "1.0.86",
-  "released": "2026-11-14",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.86.exe",
+  "version": "1.0.90",
+  "released": "2026-11-16",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/autodt-release/tai/AutoDT_v1.0.90.exe",
   "urls_du_phong": [
-    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.86/AutoDT_v1.0.86.exe"
+    "https://github.com/ThaiDuong1996/autodt-release/releases/download/v1.0.90/AutoDT_v1.0.90.exe"
   ],
-  "sha256": "46ab5df93f984a6af645cc00fc6b475e9a863621767e59ebbc1e89d1262c4eab",
-  "size": 46507008,
+  "sha256": "771dc69cc9103e1ab0a51e5dbd5307cafee966d30b27ee8dcb295749ed2c9650",
+  "size": 46550016,
   "notes": [
-    "Săn đồ: đang săn đồ hoặc canh đặt mua ở một máy ảo thì các máy ảo khác vẫn đọc kỹ năng, lấy vị trí và săn đồ được bình thường. Trước đây các máy khác bị đứng, lấy vị trí ra sai chỗ hoặc không ra gì.",
-    "Kỹ năng: thêm ô \"Áp sát rồi mới ra chiêu\". Đặt số (32 là 1 ô) thì nhân vật chạy tới sát quái đúng khoảng đó rồi mới đánh, chiêu đánh gần đỡ bị hụt. Để \"tắt\" thì đánh như cũ. Bật \"Đứng yên tại toạ độ\" thì không áp sát.",
-    "Luyện cấp: bốn kiểu luyện (tự động theo cấp, chọn bãi, tại chỗ, nhiều vị trí) bật kiểu nào thì kiểu đang bật tự tắt, không phải tắt tự động trước.",
-    "Luyện cấp: thêm tự dùng Nến Bát Trân ngay dưới Nến Hạnh Phúc, cài số cây mỗi ngày và nút Đặt lại như Nến Hạnh Phúc. Hai cây nến cũng theo ô \"Chỉ dùng khi tổ đứng cùng từ N người\" như Tiên Thảo Lộ."
+    "Nhặt đồ: đổi ô Nhặt đồ, Nhặt tiền, Nhặt vật phẩm hay \"Không nhặt vật phẩm sự kiện\" lúc nhân vật đang chạy tới nhặt thì nhân vật thôi ngay, không chạy tới nhặt nốt theo cài đặt cũ nữa.",
+    "Nhặt đồ: tích \"Không nhặt Địa đồ chí, mảnh Sơn Hà Xã Tắc\" thì lúc đánh quái cũng không tự nhặt hai món này quanh chân, trừ khi đang làm đúng nhiệm vụ Dã Tẩu cần chúng.",
+    "Full exp: tích \"Full exp cộng dồn trong ngày thì làm Dã Tẩu và Vận tiêu\" thì đầy exp là làm cả Vận tiêu dù ô Vận tiêu đang tắt. Trước đây chỉ làm Dã Tẩu, Vận tiêu bị bỏ qua.",
+    "Tổ đội: đầy exp chuyển từ Luyện cấp sang Dã Tẩu thì dùng đúng cài đặt tổ đội của thẻ Dã Tẩu. Trước đây vẫn giữ cài đặt của thẻ Luyện cấp (ví dụ chỉ nhận người trong danh sách) nên bỏ hết lời mời ở bãi Dã Tẩu và chạy bãi lung tung."
   ],
   "mandatory": false
 }
